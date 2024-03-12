@@ -75,6 +75,10 @@ iframe {
   height: 70vh;
 }
 
+.feature > p > span{
+  color: #e729b5;
+}
+
 /* news */
 
 #news {
@@ -86,6 +90,10 @@ iframe {
 #biopic {
   width: auto;
   height: 70vh;
+  background-image: url("../img/bg/prueba.svg");
+  background-position: top;
+  background-size: contain;
+  b
 }
 /* facts */
 #fact {
