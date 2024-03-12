@@ -1,0 +1,164 @@
+/* HEADER */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: white;
+}
+
+/* Ajustes para el botón del menú de hamburguesa */
+.navbar-toggler {
+  border: none; /* Quita el borde del botón de hamburguesa */
+}
+
+.navbar-toggler-icon {
+  background-color: #cc3366; /* Cambia el color al deseado */
+  border: 1px solid #cc3366; /* Cambia el color del borde al deseado si es necesario */
+}
+
+/* Ajustes para el enlace del logotipo */
+.navbar-brand h1 {
+  margin-left: 1rem;
+  color: #cc3366;
+  font-weight: normal;
+}
+
+.navbar-brand h1:hover {
+  color: black;
+}
+
+/* Ajustes para los elementos del menú */
+.navbar-nav .nav-link {
+  color: #cc3366;
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: black;
+}
+
+/* hero */
+.hero {
+  margin-top: 5rem;
+  width: auto;
+  height: auto;
+  padding: 7rem 0;
+  background-color: #ff96ad;
+  background-image: url("../img/bg/bg-12-copy-5.svg");
+  background-size: cover;
+  z-index: -10;
+}
+
+.hero-title {
+  font-weight: bolder;
+  font-size: 45px;
+  color: white;
+}
+
+.hero-title-p1 {
+  background: #7004a7;
+}
+.hero-title-p2 {
+  background: #559885;
+}
+
+iframe {
+  width: 530px;
+  height: 315px;
+}
+
+/* feature */
+
+.feature {
+  height: 70vh;
+}
+
+/* news */
+
+#news {
+  width: auto;
+  height: 70vh;
+}
+/* biopic */
+
+#biopic {
+  width: auto;
+  height: 70vh;
+}
+/* facts */
+#fact {
+  height: auto;
+  background-image: url("../img/bg/bg-marron-xl.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem 0;
+  padding: 7rem 0;
+  color: white;
+}
+
+#fact > h2 {
+  margin-bottom: 20px; /* Ajusta el margen inferior del encabezado según sea necesario */
+  font-weight: bolder;
+  font-size: 48px;
+  background: black;
+}
+
+.counter {
+  font-weight: bolder;
+}
+.main-counter-container {
+  display: flex;
+  flex-direction: column; /* Asegura que los contadores se apilen verticalmente */
+}
+
+.counter-container {
+  margin: 30px 0; /* Reduce el margen vertical para que los contadores estén más cerca */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding-top: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+.counter-container > span {
+  font-size: 1.3rem;
+}
+
+#fact1 {
+  background-color: #6e008f;
+}
+#fact2 {
+  background-color: #e427b6;
+}
+#fact3 {
+  background-color: #f24e4e;
+}
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .main-counter-container {
+    flex-direction: row; /* Cambia a fila para pantallas más grandes */
+  }
+
+  .counter-container {
+    margin: 0 30px; /* Ajusta el margen horizontal entre contadores */
+  }
+}
+
+/* footer */
+
+#footer {
+  background-color: rgba(36, 33, 33, 0.911);
+  color: #fff;
+  text-align: center;
+}
